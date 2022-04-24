@@ -1,0 +1,59 @@
+#mainNav {
+    position:sticky;
+    top: 0;
+    background: hsla(61, 81%, 88%, 1);
+    background: linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, rgb(243, 245, 122) 100%);
+    background: -moz-linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, rgb(252, 193, 104) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, rgb(236, 248, 124) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8F9C7", endColorstr="#F2C1EA", GradientType=1 );
+  }
+
+  @media (min-width: 992px) { /* Specific changes */
+
+        .projec{
+            margin-top: 30px;
+            margin-left: -400px
+        }
+
+        .projec2{
+            margin-top: 30px;
+            margin-left: -400px
+        }
+
+        .projec h4{
+            margin-bottom: 30px;
+            font-size: 40px;
+            color:rgb(94, 36, 255)
+            
+        }
+
+        .projec2 h5{
+            margin-bottom: 30px;
+            font-size: 40px;
+            color:rgb(94, 36, 255)
+        }
+
+        .projec img{
+            margin-left: 60px;
+        }
+
+        .projec2 img{
+            margin-left: 60px;
+        }
+
+        .projec p{
+            line-height: 2.0;
+        }
+
+        .projec2 p{
+            line-height: 2.0;
+        }
+        
+        .projec #target1{
+            margin-top: 25px;
+        }
+    
+        .projec2 #target2{
+            margin-top: 25px;
+        }
+    }

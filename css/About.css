@@ -1,0 +1,58 @@
+#mainNav {
+    position:sticky;
+    top: 0;
+    background: hsla(48, 78%, 82%, 1);
+    background: linear-gradient(90deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(48, 78%, 82%, 1) 0%, hsla(340, 87%, 59%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F5E6AD", endColorstr="#F13C77", GradientType=1 );
+  }
+  /*
+  All the font and appearance changes go here
+  */
+
+@media (min-width: 992px) { /* Specific changes */
+     .about{
+       margin-top: 25px;
+     }
+
+     .about h2{
+       font-size: 40px;
+       font-display : Georgia, serif;
+       color:rgb(250, 93, 31)
+     } 
+
+     .about img{
+       margin-top: 15px;
+     }
+
+     .about #hobbies{
+       margin-top: -15px;
+     }
+
+     .about #skills h2{
+       margin-bottom: 15px;
+     }
+
+     .about h3{
+        margin-left: -300px;
+        margin-bottom: 20px;
+        font-size: xx-large;
+        color:rgb(11, 150, 230)
+
+     }
+
+    .about #descrip p{
+       margin-left: -300px;
+       line-height: 1.8;
+     }
+     .about #hobbies {
+      margin-top: 30px
+    }
+
+    .about #hobbies img {
+      margin-top: -10px;
+      height: 300px;
+    }
+
+}
