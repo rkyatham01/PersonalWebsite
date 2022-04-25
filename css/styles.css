@@ -11474,10 +11474,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background: rgb(248, 196, 250);
-  background: linear-gradient(90deg, rgb(254, 209, 255) 0%, hsla(30, 82%, 91%, 1) 100%);
-  background: -moz-linear-gradient(90deg, rgb(233, 188, 235) 0%, hsla(30, 82%, 91%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgb(251, 200, 253) 0%, hsla(30, 82%, 91%, 1) 100%);    color: white;
+  background-color: white;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11514,6 +11511,7 @@ body {
     padding: 0.5rem 0;
     color: rgba(255, 255, 255, 1.0);
   }
+  
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
@@ -11568,11 +11566,15 @@ body {
   /* https://coolors.co/gradient-maker/f756aa-f75672?position=0,30&opacity=100,100&type=linear&rotation=90 Cited
   background: hsla(152, 100%, 50%, 1);
    */
-   background: hsla(239, 100%, 67%, 1);
-   background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
-   background: -moz-linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
-   background: -webkit-linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
-   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#595CFF", endColorstr="#C6F8FF", GradientType=1 );
+   background: hsla(210, 90%, 80%, 1);
+
+   background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+   
+   background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+   
+   background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+   
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
 
   background-position: center;
   background-repeat: no-repeat;
