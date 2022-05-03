@@ -59,4 +59,10 @@
         .projec2 #target2{
             margin-top: 25px;
         }
+
+        .col-lg-6 a{
+            font-size: 20px;
+            margin-left: 300px;
+        }
+
     }
