@@ -23,19 +23,19 @@
      } 
 
      .about img{
-       margin-top: 15px;
+       margin-top: 2%;
      }
 
      .about #hobbies{
-       margin-top: -15px;
+       margin-top: -3%;
      }
 
      .about #skills h2{
-       margin-bottom: 15px;
+       margin-bottom: 2%;
      }
 
      .about h3{
-        margin-left: -275px;
+        margin-left: -44%;
         margin-bottom: 20px;
         font-size: xx-large;
         color:rgb(11, 150, 230)
@@ -43,15 +43,15 @@
      }
 
     .about #descrip p{
-       margin-left: -275px;
+       margin-left: -44%;
        line-height: 1.8;
      }
      .about #hobbies {
-      margin-top: 30px
+      margin-top: 5%
     }
 
     .about #hobbies img {
-      margin-top: -10px;
+      margin-top: -2%;
       height: 300px;
     }
 
