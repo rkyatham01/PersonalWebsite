@@ -12,34 +12,36 @@
   @media (min-width: 992px) { /* Specific changes */
 
         .projec{
-            margin-top: 30px;
-            margin-left: -400px
+            margin-top: 10px;
+            margin-left: -100px
         }
 
         .projec2{
-            margin-top: 30px;
-            margin-left: -400px
+            margin-bottom: 75px;
+            margin-left: -100px
         }
 
         .projec h4{
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-size: 40px;
             color:rgb(94, 36, 255)
             
         }
 
         .projec2 h5{
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-size: 40px;
             color:rgb(94, 36, 255)
         }
 
         .projec img{
             margin-left: 60px;
+            margin-top: 50px;
         }
 
         .projec2 img{
             margin-left: 60px;
+            margin-top: 50px;
         }
 
         .projec p{
